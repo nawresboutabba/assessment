@@ -52,7 +52,7 @@ button[type="submit"] {
   font-size: 14px;
   letter-spacing: 1.5pt;
   text-transform: uppercase;
-  background-color: #333;
+  background-color: rgb(224, 206, 206);
   border: 0;
   color: #fff;
   height: 35pt;

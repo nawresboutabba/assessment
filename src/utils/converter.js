@@ -47,7 +47,7 @@ const createWordUnderHundred = (numberToConvert) => {
     let remainingDigits = numberToConvert % constants.placeValues.TEN;
     let wordToAdd =
       constants.TENS_TO_HUNDRED[
-        Math.floor(numberToConvert / constants.placeValues.TEN)
+      Math.floor(numberToConvert / constants.placeValues.TEN)
       ];
     if (remainingDigits) {
       wordToAdd += "-" + constants.ONES_TO_TWENTY[remainingDigits];
