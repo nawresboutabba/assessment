@@ -1,0 +1,61 @@
+.user-form-card {
+  background: #ffffff;
+  width: 24rem;
+  height: 34rem;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.11);
+}
+
+.user-form-container {
+  display: inline-block;
+  background: #eae7dc;
+}
+
+.card-title {
+  background-color: transparent;
+  padding: 1rem;
+}
+.card-title h1 {
+  color: #305269;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.content {
+  padding: 3rem 2.5rem 5rem;
+}
+
+.input-field {
+  width: 100%;
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #305269;
+  border-radius: 4rem;
+  display: block;
+  width: 100%;
+  background: transparent;
+  border: 2px solid #305269;
+  padding: 0.9rem 0 1.1rem;
+  transition: color 0.5s, border-color 0.5s;
+  margin-top: 1.7rem;
+}
+button:hover {
+  color: #002984;
+  border-color: #002984;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.link {
+  color: #305269;
+  padding-top: 1.8rem;
+  font-size: medium;
+}

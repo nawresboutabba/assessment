@@ -1,5 +1,5 @@
 import axios from "axios";
-import * as constants from "./constants";
+import * as constants from "./Urls";
 
 export const getAllUsers = () => {
   return axios.get(`${constants.baseURL}.json`);
