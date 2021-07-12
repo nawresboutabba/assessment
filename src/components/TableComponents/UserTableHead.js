@@ -5,8 +5,8 @@ import AddButton from "../ButtonComponents/AddButton";
 const headTitles = [
   { text: "First Name", align: "left" },
   { text: "Last Name", align: "left" },
-  { text: "Creation Date", align: "center" },
-  { text: "Toggle Status", align: "center" },
+  { text: "Creation Date", align: "left" },
+  { text: "Status", align: "left" },
 ];
 
 export default function UserTableHead() {

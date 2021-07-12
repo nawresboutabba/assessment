@@ -6,10 +6,10 @@ import UserTableBody from "./UserTableBody";
 export default function UserTable({ usersToDisplay }) {
   return (
     <div className="user-table-container">
-      <div className="table-title">Users</div>
+      <div className="table-title">Users List</div>
       <Paper className="paper">
         <TableContainer className="table-container">
-          <Table className="table" size="medium">
+          <Table className="table" size="big">
             <UserTableHead className="table-head" />
             <UserTableBody
               className="table-body"
