@@ -5,7 +5,7 @@ export const getAllUsers = () => {
   return axios.get(`${constants.baseURL}.json`);
 };
 
-export const toggleStatus = (updatedStatus, userId) => {
+export const Status = (updatedStatus, userId) => {
   const userData = { status: updatedStatus };
   return axios.put(`${constants.baseURL}/${userId}.json`, userData, {
     headers: constants.headers,

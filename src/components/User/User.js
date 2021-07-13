@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { toggleStatus } from "../../Utils/RestApi";
+import {Status } from "../../Utils/RestApi";
 import UserTableRow from "../TableComponents/UserTableRow";
 import { statuses, serverErrorMessage } from "../../Utils/Urls";
 
@@ -14,7 +14,7 @@ export default function User({ user }) {
 
   const updateStatus = (event) => {
     let newStatus = isLocked ? statuses.ACTIVE : statuses.LOCKED;
-    toggleStatus(newStatus, user.id)
+   Status(newStatus, user.id)
       .then(() => setStatus(newStatus))
       .catch(() => alert(serverErrorMessage));
   };
@@ -22,6 +22,7 @@ export default function User({ user }) {
   const attributeStyle = {
     textDecoration: isLocked ? "line-through" : "none",
     color: isLocked ? "grey" : "black",
+    
   };
 
   return (
