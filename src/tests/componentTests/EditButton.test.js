@@ -14,7 +14,3 @@ it("EditButton renders Link with correct path", () => {
   expect(linkToEdit.props()["to"]).toBe(`/edit/${userId}`);
 });
 
-it("EditButton renders add icon", () => {
-  const buttonIcon = editUser.find("EditIcon");
-  expect(buttonIcon.length > 0).toBe(true);
-});

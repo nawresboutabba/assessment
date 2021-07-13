@@ -1,8 +1,8 @@
 import React from "react";
 import { shallow } from "enzyme";
 import UserForm from "../../components/UserForm/UserForm";
-import { formTitles } from "../../Utils/constants";
-import { addNewUser } from "../../Utils/apiCalls";
+import { formTitles } from "../../Utils/Urls";
+import { addNewUser } from "../../Utils/RestApi";
 import { testUser } from "../testUtils/testConstants";
 
 const userFormComponent = shallow(

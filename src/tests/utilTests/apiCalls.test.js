@@ -7,16 +7,16 @@ jest.mock("axios");
 
 const errorMessage = "Network Error";
 const status = "active";
-const firstName = "Jane";
-const lastName = "Doe";
-const id = 116;
+const firstName = "nawres";
+const lastName = "boutabba";
+const id = 1464;
 
 describe("getAllUsers", () => {
   it("should fetch successfully data from an API", async () => {
     const data = {
       data: [
-        { first_name: "John", last_name: "Doe", id: 1, status: "locked" },
-        { first_name: "Jane", last_name: "Doe", id: 1, status: "active" },
+        { first_name: "nawres", last_name: "boutabba", id: 1464, status: "active" },
+        { first_name: "nawres12", last_name: "nawres", id: 1465, status: "locked" },
       ],
     };
     axios.get.mockImplementationOnce(() => Promise.resolve(data));
@@ -31,13 +31,13 @@ describe("getAllUsers", () => {
   });
 });
 
-describe("toggleStatus", () => {
+describe("Status", () => {
   it("should fetch successfully data from an API", async () => {
     const response = "ok";
 
     axios.put.mockImplementationOnce(() => Promise.resolve(response));
 
-    await expect(apiCall.toggleStatus(status, id)).resolves.toEqual(response);
+    await expect(apiCall.Status(status, id)).resolves.toEqual(response);
 
     const data = { status: status };
     const headers = { headers: constants.headers };
@@ -53,7 +53,7 @@ describe("toggleStatus", () => {
     axios.put.mockImplementationOnce(() =>
       Promise.reject(new Error(errorMessage))
     );
-    await expect(apiCall.toggleStatus(status, id)).rejects.toThrow(
+    await expect(apiCall.Status(status, id)).rejects.toThrow(
       errorMessage
     );
   });

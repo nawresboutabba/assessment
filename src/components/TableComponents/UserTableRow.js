@@ -30,6 +30,7 @@ export default function UserTableCell({
           className="switch"
           checked={!isLocked}
           onChange={updateStatus}
+          color="primary"
         />
       </TableCell>
     </TableRow>

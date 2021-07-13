@@ -13,7 +13,4 @@ it("AddButton renders Link with correct path", () => {
   expect(linkToAdd.props()["to"]).toBe("/new");
 });
 
-it("AddButton renders add icon", () => {
-  const buttonIcon = addUser.find("AddIcon");
-  expect(buttonIcon.length > 0).toBe(true);
-});
+
