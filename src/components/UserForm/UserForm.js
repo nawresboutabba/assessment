@@ -58,13 +58,13 @@ function UserForm({
   };
 
   return (
-    <div className="user-form-container">
+    <div className="user-form-container" >
       <div className="user-form-card">
         <div className="card-title">
           <h1>{formTitle}</h1>
         </div>
         <Divider variant="middle" />
-        <form onSubmit={submitValues}>
+        <form onSubmit={submitValues} >
           <div className="content">
             <TextField
               error={isFirstNameErrorPresent}
