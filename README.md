@@ -6,7 +6,7 @@ cd nawresbackend
 ## you should import the Data base (MYSQL) named digitalback.sql
 ### `npm install `
 ### `npm start`
-### `The server should run in localhost:3001`
+### `The server should be  in localhost:3001`
 
 ## Now you can move to the frontend side
 
