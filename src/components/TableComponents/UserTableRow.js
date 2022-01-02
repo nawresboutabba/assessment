@@ -16,16 +16,16 @@ export default function UserTableCell({
       <TableCell className="table-cell" align="center">
         <EditButton className="edit-button" userId={userId} />
       </TableCell>
-      <TableCell className="table-cell" style={attributeStyle} align="center">
+      <TableCell className="table-cell" style={attributeStyle} align="left">
         {firstName}
       </TableCell>
-      <TableCell className="table-cell" style={attributeStyle} align="center">
+      <TableCell className="table-cell" style={attributeStyle} align="left">
         {lastName}
       </TableCell>
-      <TableCell className="table-cell" style={attributeStyle} align="center">
+      <TableCell className="table-cell" style={attributeStyle} align="left">
         {creationDate}
       </TableCell>
-      <TableCell className="table-cell" align="center">
+      <TableCell className="table-cell" align="left">
         <Switch
           className="switch"
           checked={!isLocked}
