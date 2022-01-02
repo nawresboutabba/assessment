@@ -4,7 +4,7 @@ import "../../style/Pagination.css";
 
 export default function PaginationComponent({ paginationCount, goToNextPage }) {
   return (
-    <div className="pagination" >
+    <div className="pagination">
       <Pagination
         className="pagination-item"
         count={paginationCount}
