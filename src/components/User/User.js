@@ -22,6 +22,7 @@ export default function User({ user }) {
   const attributeStyle = {
     textDecoration: isLocked ? "line-through" : "none",
     color: isLocked ? "grey" : "black",
+    backgroundColor:  isLocked ? 'blue' : "none",
     
   };
 

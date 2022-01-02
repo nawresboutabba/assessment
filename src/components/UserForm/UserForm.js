@@ -92,7 +92,7 @@ function UserForm({
             />
             <button type="submit">Submit</button>
             <Link to="/">
-              <div className="link">Back</div>
+              <div className="link">&#171; Back</div>
             </Link>
           </div>
         </form>

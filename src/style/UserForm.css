@@ -48,8 +48,8 @@ button {
   margin-top: 1.7rem;
 }
 button:hover {
-  color: #002984;
-  border-color: #002984;
+  color: #32CD32;
+  border-color: #32CD32;
 }
 
 button:focus {
