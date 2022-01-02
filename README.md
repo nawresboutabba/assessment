@@ -1,8 +1,14 @@
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## To Run the backend 
+cd backend
+cd nawresbackend 
+## you should import the Data base (MYSQL) named digitalback.sql
+### `npm install `
+### `npm start`
+### `The server should be  in localhost:3001`
 
-## Available Scripts
+## Now you can move to the frontend side
 
 In the project directory, you can run:
 
