@@ -46,6 +46,7 @@ button {
   padding: 0.9rem 0 1.1rem;
   transition: color 0.5s, border-color 0.5s;
   margin-top: 1.7rem;
+  
 }
 button:hover {
   color: #32CD32;
@@ -62,7 +63,4 @@ button:focus {
   padding-top: 1.8rem;
   font-size: medium;
   text-align: left;
-}
-.paper {
-  border-radius: 80%;
 }

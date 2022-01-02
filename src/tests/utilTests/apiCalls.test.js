@@ -9,14 +9,14 @@ const errorMessage = "Network Error";
 const status = "active";
 const firstName = "nawres";
 const lastName = "boutabba";
-const id = 1464;
+const id = 8;
 
 describe("getAllUsers", () => {
   it("should fetch successfully data from an API", async () => {
     const data = {
       data: [
-        { first_name: "nawres", last_name: "boutabba", id: 1464, status: "active" },
-        { first_name: "nawres12", last_name: "nawres", id: 1465, status: "locked" },
+        { first_name: "nawres", last_name: "boutabba", id: 8, status: "active" },
+        { first_name: "hello", last_name: "world", id: 9, status: "active" },
       ],
     };
     axios.get.mockImplementationOnce(() => Promise.resolve(data));
