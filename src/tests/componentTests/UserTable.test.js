@@ -7,7 +7,7 @@ const userTable = shallow(<UserTable usersToDisplay={testUsers} />);
 
 it("Card title should be: Users", () => {
   const titleText = userTable.find(".table-title").text();
-  expect(titleText).toBe("Users List");
+  expect(titleText).toBe("Admin List");
 });
 
 it("Should render a paper component", () => {

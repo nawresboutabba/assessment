@@ -15,8 +15,8 @@ describe("getAllUsers", () => {
   it("should fetch successfully data from an API", async () => {
     const data = {
       data: [
-        { first_name: "nawres", last_name: "boutabba", id: 8, status: "active" },
-        { first_name: "hello", last_name: "world", id: 9, status: "active" },
+        { first_name: "nawres", last_name: "boutabba", id: 8 },
+        { first_name: "hello", last_name: "world", id: 9 },
       ],
     };
     axios.get.mockImplementationOnce(() => Promise.resolve(data));
