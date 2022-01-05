@@ -1,6 +1,5 @@
-//export const baseURL = "http://js-assessment-backend.herokuapp.com/users";
-//my backend URL
-export const baseURL = "https://assessment-users-backend.herokuapp.com";
+export const baseURL = "http://js-assessment-backend.herokuapp.com/users";
+
 
 export const headers = { "Content-Type": "application/json" };
 export const statuses = { ACTIVE: "active", LOCKED: "locked" };
