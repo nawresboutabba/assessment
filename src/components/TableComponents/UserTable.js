@@ -5,7 +5,7 @@ import UserTableBody from "./UserTableBody";
 export default function UserTable({ usersToDisplay }) {
   return (
     <div className="user-table-container" >
-      <div className="table-title">Admin List</div>
+      <div className="table-title">User Management</div>
       <Paper className="paper" style={{'borderRadius':'20px'}}>
         <TableContainer className="table-container"  >
           <Table className="table" size="big">

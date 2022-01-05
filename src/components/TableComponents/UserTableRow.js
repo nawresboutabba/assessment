@@ -15,6 +15,7 @@ export default function UserTableCell({
     <TableRow className="table-row" hover={true}>
       <TableCell className="table-cell" align="center">
         <EditButton className="edit-button" userId={userId} />
+        
       </TableCell>
       <TableCell className="table-cell" style={attributeStyle} align="left">
         {firstName}
@@ -30,7 +31,7 @@ export default function UserTableCell({
           className="switch"
           checked={!isLocked}
           onChange={updateStatus}
-          color="primary"
+          color="#69cff7"
         />
       </TableCell>
     </TableRow>

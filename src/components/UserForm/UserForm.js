@@ -76,7 +76,7 @@ function UserForm({
               onChange={firstNameChange}
               variant="outlined"
               margin="normal"
-              color="Primary"
+              color="#69cff7"
             />
             <TextField
               error={isLastNameErrorPresent}
@@ -88,7 +88,7 @@ function UserForm({
               onChange={lastNameChange}
               variant="outlined"
               margin="normal"
-              color="Primary"
+              color="#69cff7"
             />
             <button type="submit">Submit</button>
             <Link to="/">

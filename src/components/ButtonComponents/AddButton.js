@@ -6,7 +6,7 @@ import AddIcon from "@material-ui/icons/Add";
 export default function AddButton() {
   return (
     <Link to="/new" className="link-to-add">
-      <Fab size="small" color="Primary" aria-label="add">
+      <Fab size="small" color="#69cff7" aria-label="add">
         <AddIcon />
       </Fab>
     </Link>

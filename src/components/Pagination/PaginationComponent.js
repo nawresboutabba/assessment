@@ -9,7 +9,7 @@ export default function PaginationComponent({ paginationCount, goToNextPage }) {
         className="pagination-item"
         count={paginationCount}
         onChange={goToNextPage}
-        color="Primary"
+        color="#69cff7"
         
       />
     </div>

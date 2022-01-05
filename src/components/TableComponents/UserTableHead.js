@@ -3,6 +3,7 @@ import { TableCell, TableHead, TableRow } from "@material-ui/core";
 import AddButton from "../ButtonComponents/AddButton";
 
 const headTitles = [
+  
   { text: "First Name", align: "left" },
   { text: "Last Name", align: "left" },
   { text: "Creation Date", align: "left" },
