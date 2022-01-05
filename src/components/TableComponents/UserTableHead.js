@@ -14,8 +14,8 @@ export default function UserTableHead() {
   return (
     <TableHead className="table-head" >
       <TableRow className="table-row" >
-        <TableCell className="table-cell" align="center" >
-          <AddButton className="add-button" />
+        <TableCell className="table-cell" align="center" > 
+       <AddButton className="add-button" />
         </TableCell>
         {headTitles.map((title) => (
           <TableCell

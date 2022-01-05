@@ -6,7 +6,7 @@ import * as constants from "../../Utils/Urls";
 jest.mock("axios");
 
 const errorMessage = "Network Error";
-const status = "locked";
+const status = "active";
 const firstName = "nawres";
 const lastName = "boutabba";
 const id =54 ;

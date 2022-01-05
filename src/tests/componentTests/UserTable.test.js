@@ -5,9 +5,9 @@ import { testUsers } from "../testUtils/testConstants";
 
 const userTable = shallow(<UserTable usersToDisplay={testUsers} />);
 
-it("Card title should be: Users", () => {
+it("Card title should be: User Management", () => {
   const titleText = userTable.find(".table-title").text();
-  expect(titleText).toBe("Admin List");
+  expect(titleText).toBe("User Management");
 });
 
 it("Should render a paper component", () => {
