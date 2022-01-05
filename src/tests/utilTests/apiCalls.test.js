@@ -6,17 +6,16 @@ import * as constants from "../../Utils/Urls";
 jest.mock("axios");
 
 const errorMessage = "Network Error";
-const status = "active";
+const status = "locked";
 const firstName = "nawres";
 const lastName = "boutabba";
-const id = 8;
+const id =54 ;
 
 describe("getAllUsers", () => {
   it("should fetch successfully data from an API", async () => {
     const data = {
       data: [
-        { first_name: "nawres", last_name: "boutabba", id: 8 },
-        { first_name: "hello", last_name: "world", id: 9 },
+        { first_name: "nawres", last_name: "boutabba", id: 54 },
       ],
     };
     axios.get.mockImplementationOnce(() => Promise.resolve(data));
