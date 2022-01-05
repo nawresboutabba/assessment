@@ -31,7 +31,7 @@ export default function UserTableCell({
           className="switch"
           checked={!isLocked}
           onChange={updateStatus}
-          color="#69cff7"
+          style={{color:'purple'}}
         />
       </TableCell>
     </TableRow>
